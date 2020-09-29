@@ -6,7 +6,7 @@
 public Plugin myinfo =
 {
 	name = "Force sv_full_alltalk",
-	author = "Nairda", // stole snippet from KiD
+	author = "Not Nairda", // stole snippet from KiD
 	description = "Volvo™ sucks",
 	url = "https://steamcommunity.com/id/nairda1339/"
 };
