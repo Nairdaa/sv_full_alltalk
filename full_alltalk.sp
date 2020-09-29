@@ -13,7 +13,11 @@ public Plugin myinfo =
 
 public void OnPluginStart()
 {
+	FindConVar("sv_alltalk").AddChangeHook(OnConVarChanged);
+	FindConVar("sv_deadtalk").AddChangeHook(OnConVarChanged);
 	FindConVar("sv_full_alltalk").AddChangeHook(OnConVarChanged);
+	FindConVar("sv_talk_enemy_dead").AddChangeHook(OnConVarChanged);
+	FindConVar("sv_talk_enemy_living").AddChangeHook(OnConVarChanged);
 }
 
 public void OnConVarChanged(ConVar convar, const char[] oldValue, const char[] newValue)
