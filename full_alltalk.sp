@@ -18,5 +18,5 @@ public void OnPluginStart()
 
 public void OnConVarChanged(ConVar convar, const char[] oldValue, const char[] newValue)
 {
-    convar.IntValue = 1;
+	convar.IntValue = 1;
 }
